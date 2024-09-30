@@ -10,6 +10,11 @@ body {
     text-decoration: none; /* Remove o sublinhado do link */
     color: inherit; /* Mantém a cor do cabeçalho */
 }
+.header-link:hover {
+    color: #ffcc00;
+    
+}
+
 
 .header-link:hover {
     opacity: 0.8; /* Efeito de hover se desejado */
