@@ -1,0 +1,50 @@
+body {
+    background-color: #000; /* Fundo preto */
+    color: #E5A220; /* Cor dourada */
+    font-family: 'Kaushan Script', cursive;
+}
+
+/* barra pesquisar*/
+
+/* fim da barra pesquisar*/
+
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.brand {
+    font-size: 48px;
+    color: #ffffff;
+}
+
+.subtitle {
+    font-size: 36px;
+    color: #E5A220;
+}
+
+.form-custom {
+    background-color: #E5A220;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    color: #000;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+.btn-custom {
+    background-color: #E5A220;
+    color: #000;
+    border: none;
+    width: 100%;
+    padding: 10px;
+    font-size: 22px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.btn-custom:hover {
+    background-color: #cf8e1b; /* Efeito hover mais escuro */
+}

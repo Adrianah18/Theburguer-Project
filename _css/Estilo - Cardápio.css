@@ -1,0 +1,143 @@
+@charset "UTF-8";
+
+/* Formatação do Corpo*/
+body {
+    font-family: Arial;
+     background-color: black;
+     color: #ffffffff;
+ }
+ 
+ /*Formatação da Capa */
+ .header-link {
+    text-decoration: none; /* Remove o sublinhado do link */
+    color: inherit; /* Mantém a cor do cabeçalho */
+}
+
+.header-link:hover {
+    opacity: 0.8; /* Efeito de hover se desejado */
+}
+
+ 
+ h1 {
+    text-align: center;
+    color: #ffffff;
+    font-family: "Kaushan Script", cursive;
+    font-weight: 400;
+    font-size: 50px;
+}
+
+h2 {
+    text-align: center;
+    color: #ffffff;
+    font-family: "Kaushan Script", cursive;
+    font-size: 70px;
+    margin-top: -3%;
+}
+ 
+.menu-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 50px; /* Espaçamento entre os itens do menu */
+}
+
+.menu-item {
+    text-decoration: none; /* Remove underline */
+    color: inherit; /* Mantém a cor do texto */
+    display: flex; /* Alinha o ícone e o texto */
+    align-items: center; /* Centraliza verticalmente */
+}
+
+.menu-icon {
+    width: 50px;
+    height: 50px;
+}
+
+.menu-text {
+    display: block;
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #E5A220;
+}
+
+.menu-item:hover .menu-text {
+    color: #ffffff; /* Cor ao passar o mouse no texto */
+}
+
+.menu-item:hover .menu-icon {
+    filter: brightness(1.2); /* Efeito de brilho ao passar o mouse no ícone */
+}
+
+/* Estilos para o card */
+.card {
+    margin-top: 5%;
+    width: 18rem; /* Define a largura do card */
+    border-radius: 10px; /* Bordas arredondadas no card */
+    overflow: hidden; /* Garante que o conteúdo não vaze das bordas */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Sombra leve para dar destaque */
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out; /* Animação suave ao passar o mouse */
+    background-color: #1c1c1c; /* Fundo escuro */
+    color: #ffffff; /* Texto branco */
+    margin-left: 5%;
+}
+
+.card:hover {
+    transform: scale(1.05); /* Efeito de zoom ao passar o mouse */
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2); /* Aumenta a sombra ao passar o mouse */
+}
+
+/* Estilo para a imagem do card */
+.card-img-top {
+    width: 100%; /* A imagem preenche a largura do card */
+    height: 200px; /* Define uma altura fixa para a imagem */
+    object-fit: cover; /* A imagem mantém suas proporções e cobre todo o espaço */
+    border-radius: 10px 10px 0 0; /* Bordas arredondadas na parte superior da imagem */
+}
+/* Estilo para o título do card */
+.card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #E5A220; /* Cor dourada para o título */
+}
+
+
+
+ 
+ /* Formatação do Rodapé */
+ 
+ footer#rodape {
+     display: block;
+     width: 1200px;
+     height: 50px;
+     margin-top: 1100px;
+     padding-left: 550px;
+     color: #ffffffff;   
+     align-items: center;
+ }
+ 
+ footer#rodape p#copy {
+     text-align: justify;
+     color: yellow;
+ }
+ 
+ footer#rodape p#links {
+     text-align: justify;
+     color: yellow;
+     padding-left: 50px;
+ }
+ 
+ footer#rodape a {
+     text-decoration: none;
+     color: yellow;
+ }
+ 
+ footer#rodape img#bsl{
+     width: 40px;
+     height: 40px;
+     margin-left: -80px;
+     margin-top: -200px;
+     padding-bottom: 50px;
+     padding-left: 35px;
+ }

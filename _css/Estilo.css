@@ -1,0 +1,101 @@
+@charset "UTF-8";
+
+/* Formatação do Corpo */
+body {
+    font-family: Arial;
+    background-color: rgb(0, 0, 0);
+    color: #ffffff;
+}
+.header-link {
+    text-decoration: none; /* Remove o sublinhado do link */
+    color: inherit; /* Mantém a cor do cabeçalho */
+}
+
+.header-link:hover {
+    opacity: 0.8; /* Efeito de hover se desejado */
+}
+h1 {
+    text-align: center;
+    color: #ffffff;
+    font-family: "Kaushan Script", cursive;
+    font-weight: 400;
+    font-size: 50px;
+}
+
+h2 {
+    text-align: center;
+    color: #ffffff;
+    font-family: "Kaushan Script", cursive;
+    font-size: 70px;
+    margin-top: -3%;
+}
+
+/* Carrossel */
+#carouselExampleIndicators {
+    margin: 0 auto; /* Centraliza o carrossel na página */
+    width: 600px; /* Largura do carrossel */
+    border: 2px solid #E5A220; /* Borda ao redor do carrossel */
+    border-radius: 10px; /* Bordas arredondadas */
+    overflow: hidden; /* Oculta partes das imagens que saem do limite */
+}
+
+.carousel-inner {
+    height: 500px; /* Altura total do carrossel */
+}
+
+.carousel-inner img {
+    height: 100%; /* Preenche a altura do carrossel */
+    width: 100%; /* Preenche a largura do carrossel */
+    object-fit: cover; /* Mantém a proporção e cobre todo o espaço */
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: #E5A220; /* Cor de fundo dos ícones de controle */
+    border-radius: 50%; /* Bordas arredondadas para os ícones */
+}
+
+.carousel-indicators button {
+    background-color: #E5A220; /* Cor dos botões dos indicadores */
+}
+
+.carousel-indicators .active {
+    background-color: #b60303; /* Cor do botão ativo dos indicadores */
+}
+
+
+/* Define uma largura fixa e uniforme para todos os botões */
+.btn-custom {
+    width: 300px; /* Definir largura uniforme */
+    text-align: center;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon {
+    width: 30px;
+    margin-right: 10px; /* Espaçamento entre o ícone e o texto */
+}
+
+
+
+/* Formatação do Rodapé */
+footer#rodape {
+    display: block;
+    width: 100%; /* Largura total do rodapé */
+    height: 50px;
+    margin-top: 300px;
+    text-align: center; /* Centraliza o conteúdo do rodapé */
+    color: #ffffff;   
+}
+
+footer#rodape p#copy,
+footer#rodape p#links {
+    color: yellow;
+}
+
+footer#rodape a {
+    text-decoration: none;
+    color: yellow;
+}
